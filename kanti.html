@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Page Title</title>
+	<style>
+		.top-container {
+			display: flex;
+			flex-wrap: nowrap;
+			/* background-color: DodgerBlue; */
+			/* justify-content: flex-end; */
+		}
+
+		.top-container>.searchContainer {
+			width: 33%;
+			text-align: left;
+		}
+
+		.top-container>.logoContainer {
+			width: 33%;
+			text-align: center;
+		}
+
+		.top-container>.downloadContainer {
+			width: 33%;
+			text-align: right;
+		}
+
+		.borderContainer {
+			border: 1px solid black;
+		}
+
+		.fsn-container {
+			display: flex;
+			flex-wrap: nowrap;
+		}
+
+		.fsn-containers {
+			width: 12.4%;
+		}
+
+		.lid-container {
+			display: flex;
+			flex-wrap: nowrap;
+		}
+
+		.lid-containers {
+			width: 12.4%;
+		}
+		.checklist-container{
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: flex-end;
+		}
+		.checklist-containers{
+			width: 16.5%;
+		}
+
+		.greenBig {
+			border-radius: 50%;
+			background-color: green;
+			width: 15px;
+			height: 15px;
+		}
+
+		.fsn-containers button,.download-button {
+			width: 65px;
+			height: 40px;
+			background-color: #fff;
+			margin-bottom: 10px;
+		}
+
+		.download-button {
+			width: 125px;
+			height: 40px;
+			background-color: #fff;
+			margin-bottom: 10px;
+		}
+
+		.yellow-button {
+			color:red;
+			background-color:orange;
+			margin-bottom: 10px;
+			border: yellow;
+		}
+		.redBig{
+			border-radius: 50%;
+			background-color: red;
+			width: 15px;
+			height: 15px;
+		}
+		.dotted-border{
+			border-top: 1px dashed black;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="top-container">
+		<div class="searchContainer">
+			<div>
+				<input type="text">
+				<button>Go</button>
+			</div>
+		</div>
+		<div class="logoContainer">
+			<div>
+				LOGO
+				<p>Brand Launch Sales </p>
+			</div>
+		</div>
+		<div class="downloadContainer">
+			<div>
+				<button class="download-button">Download Report</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="borderContainer">
+		<div>
+			FSN/Listing Sale Readiness
+			<hr>
+		</div>
+
+		<div class="fsn-container">
+			<div class="fsn-containers">
+				<div>
+					FSN1
+				</div>
+			</div>
+			<div class="fsn-containers">
+				<div>
+					<div class="greenBig"></div>
+				</div>
+			</div>
+			<div class="fsn-containers">
+				<div>
+					<button>View on website</button>
+				</div>
+			</div>
+			<div class="fsn-containers">
+				<div>
+					<button>Merch</button>
+				</div>
+			</div>
+			<div class="fsn-containers">
+				<div>
+					<button>Offers</button>
+				</div>
+			</div>
+			<div class="fsn-containers">
+				<div>
+					<button>Sherlock</button>
+				</div>
+			</div>
+			<div class="fsn-containers">
+				<div>
+					<button>Hermes</button>
+				</div>
+			</div>
+			<div class="fsn-containers">
+				<div>
+					<button>Inventory</button>
+				</div>
+			</div>
+		</div>
+		<hr>
+
+		<div class="lid-container">
+			<div class="lid-containers">
+				<div>
+					LID1
+				</div>
+			</div>
+			<div class="lid-containers">
+				<div>
+					<div class="redBig"></div>
+				</div>
+			</div>
+			<div class="lid-containers">
+				<div>
+					<button class="yellow-button">Attempt Fix</button>
+				</div>
+			</div>
+			<div class="lid-containers">
+				<div>
+					
+				</div>
+			</div>
+			<div class="lid-containers">
+				<div>
+					
+				</div>
+			</div>
+			<div class="lid-containers">
+				<div>
+					
+				</div>
+			</div>
+			<div class="lid-containers">
+				<div>
+					<button>Select Sale Day</button>
+				</div>
+			</div>
+			
+		</div>
+		<hr class="dotted-border">
+
+		<div class="checklist-container">
+			<div class="checklist-containers">
+				<div>
+					CheckList
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					Status
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					Action
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					Sale Timeline
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					owner/Poc
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					Details
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="checklist-container">
+			<div class="checklist-containers">
+				<div>
+					Catalog
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					<div class="greenBig"></div>
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					N-12
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					ixp-oncall@<button>Raise JIRA + Email!</button>
+				</div>
+			</div>
+			<div class="checklist-containers">
+				<div>
+					FSN should be in ready state
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+
+</html>
